@@ -1,0 +1,1 @@
+gcloud functions deploy pdfmedium --runtime python37 --trigger-http --set-env-vars MAIL_API_KEY=<YOUR_SENDGRID_API_KEY> --project <YOUR_GOOGLE_PROJECT_ID> --region europe-west1
